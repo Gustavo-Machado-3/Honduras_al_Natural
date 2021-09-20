@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'DM Sans', sans-serif;
+        }
+        .contedor{
+            width: 80%;
+            max-width:1000px;
+            margin: 0 auto;
+            overflow: hidden;
+        
+        }
+
+        .encabezado{
+            width: 100%;
+            display: flex;
+            flex-direction: row;            
+            margin-left: 1px;           
+        }
+        #logo{
+            width: 100%;
+            height:16vh;
+            margin-left: 50em;
+            margin:1px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            margin:10vh;
+        }
+        .container1{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+        #titulo{
+           
+            text-align: center;
+            padding: 60px;
+            width: 20;       
+            font-family: Arial;
+            font-size: 1.5vh;
+            font-weight: 500;
+        }
+        .leyenda{
+            width: 100%;
+            margin:1px;
+        }
+        nav{
+            background-color: MediumSlateBlue;
+            justify-content: space-evenly;
+            height: 6vh;
+            align-items: center;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+            
+        }
+        nav div{
+            width: 33%;
+            text-align: center;
+        }
+        nav div:hover{
+            background-color: rgb(78, 56, 207);
+        }
+        #link{
+            color: rgb(40, 140, 170);
+            font-weight: bold;
+        }
+        .texto{
+            width: 100%;
+            margin: 20px;
+        }
+        .imagenes{
+            width: 80%;
+            
+            margin: 40px;
+            box-sizing: border-box;
+        }
+        footer{
+            background-color: gray;
+            justify-content: space-evenly;            
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        footer a{
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+        }
+        footer div{
+            width: 100%;
+            text-align: center;
+            padding-top: 5px;
+        }
+        footer p{
+            padding-top: 5px;
+        }
+        .redes{
+            width: 12vh;
+            padding: 2vh;
+        }
+        @media screen  and (max-width: 400px){
+            .texto{
+                width: 100%;
+            }
+            .imagenes{
+                width: 100%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="Contenedor">
+    <header class="encabezado">
+        <div id="titulo">
+            <h2>MIRA LOS <br> MEJORES <br> LUGARES</h2>
+        </div>
+        <div>
+            <img src="img/LOGO.png" id="logo">
+        </div>
+        
+    </header>
+    <nav class="container1">
+        <div><a href="#">Inicio</a></div>
+        <div><a href="#">Artículos</a></div>
+        <div><a href="#">Contacto</a></div>
+    </nav>
+    
+    <h1 class="leyenda">Los lugares más hermosos de Honduras: <br> Conoce los mejores parajes turísticos de nuestro país.</h1>
+    
+    <div class="container">
+        <div class="texto">
+            <h2>Rawacala</h2><br><p>Rawacala Rainforest Adventure EcoPark es un sitio espectacular completamente rodeado de naturaleza, perfecto para escapar de la ruidosa ciudad, donde puedes experimentar mucha diversión y adrenalina pura.</p><a href="http://www.rawacala.com/" id="link" target="_blank">Ver más</a><br>
+        </div>
+        <div>
+            <img src="img/rawacala.jpg" id="rawcala" class="imagenes">
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <img src="img/celaque4.jpg" id="celaque2" class="imagenes">
+        </div>
+        <div class="texto">
+            <h2>Celaque</h2><br>
+            <p>Los amantes de la naturaleza tienen en Celaque la dura tarea de ascender al punto de mayor elevación en Honduras.</p> <a href="https://celaque.org/" id="link"  target="_blank">Ver más</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="texto">
+            <h2>Montaña de Puca</h2><br>
+            <p>Un mar de nubes al pie de la montaña de Puca. La montaña de Puca está localizada en el departamento de Lempira.</p> <a href="https://www.honduras.com/guias/aventura/montana-de-puca-el-paraiso-en-las-montanas-de-honduras/" id="link"  target="_blank">Ver más</a>
+        </div>
+        <div>
+            <img src="img/puca1.jpg"class="imagenes">
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <img src="img/pigeoncay1.jpg" class="imagenes">
+        </div>
+        <div class="texto">
+            <h2>Pigeon Cay</h2><br>
+            <p> Todos los que conocen nuestro Caribe se admiran de la claridad de las aguas y la variedad de tonos turquesa de sus aguas, y tienen razón, pero cuando llegan a conocer Pigeon Cay se dan cuenta de la verdadera dimensión de la palabra claridad del agua.</p>
+            <a href="https://hondurasisgreat.org/pigeon-cay-paraiso-de-aguas-mas-claras-en-el-mundo/?fbclid=IwAR3L2CmVVlSnGHNUMZ9asljvtYLg7cqfG0uibHZ81qPXa1u5RParsCNmcD0" id="link" target="_blank">Ver más</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="texto">
+            <h2>El Nacimiento</h2><br>
+            <p>Balneario "El Nacimiento", Peña Blanca, Cortés. Hermoso nacimiento de aguas color verde esmeralda rodeado de grandes y bastos arboles.</p> <a href="https://www.elcolochoviajero.com/honduras/balneario-el-nacimiento-en-pena-blanca/" id="link" target="_blank">Ver más</a>
+        </div>
+        <div>
+            <img src="img/nacimiento1.jpg" class="imagenes">
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <img src="img/pula1.png" class="imagenes">
+        </div>
+        <div class="texto">
+            <h2>El nacimiento de Pulhapanzak</h2><br>
+            <p>A tan solo 17 kilómetros del Lago de Yojoa, se encuentran las cataratas de Pulhapanzak, una imponente caída de agua de 43 metros de altura. Lo que pocos conocen es el nacimiento de esta maravillosa cascada. Hondufalls se dio a la tarea de hacer un recorrido hasta llegar a encontrar el nacimiento de esta joya natural de Honduras.</p><a href="https://www.hondurastips.hn/2020/07/09/el-nacimiento-de-pulhapanzak-una-joya-oculta-de-agua-color-turquesa/?fbclid=IwAR1_-ac2VpZAeB-2uhWa-5ip5f7OlhrPBaiopVd0jJFS4IG2Yhy7Eg1kFnA" id="link" target="_blank">Ver más</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="texto">
+            <h2>Guanaja</h2><br>
+            <p>Guanaja es una hermosa isla en el Caribe de Honduras. Este sitio, forma parte de las 30 Maravillas de Honduras, es un lugar ideal para vacacionar si te gusta visitar playas y bosques, o si lo tuyo es el buceo.</p> <a href="https://www.marcahonduras.hn/cosas-que-debes-saber-para-visitar-guanaja/" id="link" target="_blank">Ver más</a>
+        </div>
+        <div>
+            <img src="img/guanaja1.jpg" class="imagenes">
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <img src="img/cayaguanca1.jpg" class="imagenes">
+        </div>
+        <div class="texto">
+            <h2>El Peñon de Cayaguanca</h2><br>
+            <p>Para los amantes del senderismo, este peñón (La Piedra de Cayaguanca para algunos) es un destino casi obligatorio. Sus formaciones rocosas, la belleza escénica del paisaje y la asombrosa vista panorámica que regala desde la cima justifican el ascenso de sus 1,621 metros de altura.</p> <a href="https://www.hondurastips.hn/2012/10/01/el-penon-de-cayaguanca/" id="link"  target="_blank">Ver más</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="texto">
+            <h2>Los Nanzales</h2><br>
+            <p>Esta impresionante y hermosa cascada de agua cristalina se encuentra a 43 kilómetros de Tegucigalpa, en la comunidad de Los Nanzales en Sabanagrande. Una joya natural donde puede gozar un fin de semana rodeado de vegetación. </p><a href="https://www.hondurastips.hn/2020/10/30/impresionante-cascada-de-agua-cristalina-en-los-nanzales-sabanagrande/" id="link" target="_blank">Ver más</a>
+        </div>
+        <div>
+            <img src="img/nanzales1.jpg" class="imagenes">
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <img src="img/lancetilla1.jpg" class="imagenes">
+        </div>
+        <div class="texto">
+            <h2>Jardín Botánico de Lancetilla</h2><br>
+            <p>Lancetilla es la joya verde de Honduras, una bella área protegida, un encantador bosque húmedo tropical que cuenta con una gran biodiversidad de flora. Este paraíso natural, localizado a unos metros de una de las entradas de Tela, puede deleitar a cualquier visitante ya que es un verdadero tesoro.</p><a href="https://www.hondurastips.hn/2016/07/15/conozca-lancetilla-paraiso-al-norte-honduras/" id="link" target="_blank">Ver más</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="texto">
+            <h2>Sierra de Montecillos</h2><br>
+            <p>A pesar de no contar con picos elevados de consideracion ofrece parajes de montaña que enamoran<a href="https://hondurasisgreat.org/montecillos-honduras/" id="link" target="_blank">Ver más</a></p>
+        </div>
+        <div>
+            <img src="img/montecillos1.jpg" class="imagenes">
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <img src="img/chorrera1.jpg" class="imagenes">
+        </div>
+        <div class="texto">
+            <h2>Cascada La Chorrera </h2><br>
+            <p>Un sitio con una gran extensión de bosque y una escalinata natural que deslumbra por el agua que cae con mucha potencia.<a href="https://www.hondurastips.hn/2019/06/19/la-chorrera-un-tesoro-natural-oculto-en-francisco-morazan-se-anima-a-visitarla/" id="link" target="_blank">Ver más</a></p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="texto">
+            <h2>Cuevas de Pencaligüe</h2><br>
+            <p>Enormes Cuevas en las que se sentirá pequeño. No apto para claustrofóbicos.</p> <a href="https://hondurasisgreat.org/cuevas-pencaligue-honduras/?fbclid=IwAR0lFxSrh5DoQFkN4a-KB98cUHRDwBxHPXryaOsdKTCRpK4UpSIP70Q8yQU" target="_blank" id="link" >Ver más</a>
+        </div>
+        <div>
+            <img src="img/pencaligue1.jpg" class="imagenes">
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <img src="img/elbambu1.jpg" class="imagenes">
+        </div>
+        <div class="texto">
+            <h2>Cañon El Bambú</h2><br>
+            <p>En la comunidad de Los Nanzales, que pertenece a Sabanagrande de Francisco Morazán le espera un destino imaginable, es nada más y nada menos que el “cañón El Bambú”. Su mayor atracción son sus aguas de color turquesa que nos invita a dar un refrescante baño.</p>
+            <a href="https://www.hondurastips.hn/2020/03/05/canon-el-bambu-una-piscina-natural-de-aguas-turquesas-en-sabanagrande/" id="link"  target="_blank">Ver más</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="texto">
+            <h2>La Cueva del Amor</h2><br>
+            <p>En los acantilados que rodean a Punta Sal se encuentra una cueva que atraviesa el Peñon de lado a lado con una distancia de un poco más de 100 metros.</p>
+            <a href="https://hondurasisgreat.org/cueva-amor-tela/?fbclid=IwAR36CxVsH60Yz7oNwjIJJ0MnKbcl-Q6RaxID8De1Vb3M68h3EO5WkBF5YmQ" target="_blank">Ver más</a>
+        </div>
+        <div>
+            <img src="img/cuevadelamor1.jpg" class="imagenes">
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <img src="img/isladeltigre1.jpg" class="imagenes">
+        </div>
+        <div class="texto">
+            <h2>Isla del Tigre</h2><br>
+            <p>La Isla del Tigre, ubicada en el municipio de Amapala es un verdadero paraíso terrenal en Honduras, conocida por su exótica naturaleza e historia, encantan a los turistas que desean disfrutar de sus cálidas aguas.</p>
+            <a href="https://www.hondurastips.hn/2020/03/12/isla-del-tigre-un-pequeno-paraiso-terrenal-en-la-zona-sur-del-pais/" target="_blank">Ver más</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>Síguenos en nuestras redes:</p>
+        <div>
+            <a href="https://www.twitter.com" target="_blank"><img src="img/tw.png" class="redes"></img></a>
+            <a href="https://www.facebook.com" target="_blank"><img src="img/face.png" class="redes" ></img></a>
+            <a href="https://www.google.com/intl/es-419/gmail/about/#" target="_blank"><img src="img/gg.jpg" class="redes"></img></a>
+        </div>
+        <p>©Todos los derechos reservados</p> 
+    </div>      
+    </footer>
+</body>
+</html>
